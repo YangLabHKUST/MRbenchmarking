@@ -25,10 +25,11 @@ devtools::install_github("qingyuanzhao/mr.raps")
 install.packages(“robustbase”)
 
 ## R code
-The MRbenchmarking repository contains all the R codes for running the 15 MR methods.
+The R code for running the 15 MR methods for each dataset is given in *main_run_MR_methods.R*.
+To run the codes of *main_run_MR_methods.R*, you must load the required packages and the R functions in the folder *Rfuncs*. 
 
 ## Datasets
-The four datasets used in the MR benchmarking study can be downloaded here.
+The four datasets used in the MR benchmarking study can be downloaded here. The GWAS summary data files (after data preprocessing) and the summary statistics for selected IVs are available for downloading.
 
 ## Reference
 Benchmarking Mendelian Randomization methods for causal inference using genome‐wide association study summary statistics
