@@ -1,4 +1,5 @@
 # Benchmarking Mendelian Randomization methods for causal inference using genome‐wide association study summary statistics
+## Introduction
 
 ## Datasets
 The four datasets used in the MR benchmarking study can be downloaded here:  
