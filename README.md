@@ -37,7 +37,7 @@ install.packages(“robustbase”)
 
 ### Step 1: IV selection 
 In this step, we perform IV selection for each trait pair in each dataset.
-The R code for IV selection is available in []().
+The R code for IV selection is available in [IV_selection.R](https://github.com/YangLabHKUST/MRbenchmarking/blob/main/IV_selection.R).
 
 
 ### Step 2: run MR Methods
