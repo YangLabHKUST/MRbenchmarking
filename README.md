@@ -39,7 +39,7 @@ The four datasets used in the MR benchmarking study can be downloaded here:
 [Dataset3]();  
 [Dataset4](). 
 
-The GWAS summary data files (after data preprocessing) and the summary statistics for selected IVs are available for downloading.
+The GWAS summary data files (after data preprocessing) and the summary statistics for selected IVs are also available.
 
 ## Results
 
