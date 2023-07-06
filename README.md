@@ -29,7 +29,7 @@ install.packages(“robustbase”)
 The R codes for data preprocessing for each dataset are available [].
 
 ### Step 2: run MR Methods
-The R codes for running the 15 MR methods for each dataset are available in [main_run_MR_methods.R]().
+The R codes for running the 15 MR methods for each dataset are available in [main_run_MR_methods.R](https://github.com/YangLabHKUST/MRbenchmarking/blob/main/main_run_MR_methods.R).
 To run the codes of *main_run_MR_methods.R*, you must load the required packages and the R functions in the folder [Rfuncs]. 
 
 ## Datasets
