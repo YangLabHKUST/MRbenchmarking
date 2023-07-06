@@ -25,8 +25,9 @@ devtools::install_github("qingyuanzhao/mr.raps")
 install.packages(“robustbase”)
 
 ## R code
-### Step 1：data-preprocessing
-The R codes for data preprocessing for each dataset are available [].
+### Step 1: data-preprocessing
+
+The R codes for data preprocessing for each dataset are available in [].
 
 ### Step 2: run MR Methods
 The R codes for running the 15 MR methods for each dataset are available in [main_run_MR_methods.R](https://github.com/YangLabHKUST/MRbenchmarking/blob/main/main_run_MR_methods.R).
