@@ -33,7 +33,7 @@ The R codes for running the 15 MR methods for each dataset are available in [mai
 To run the codes of *main_run_MR_methods.R*, you must load the required packages and the R functions in the folder [Rfuncs]. 
 
 ## Datasets
-The four datasets used in the MR benchmarking study can be downloaded here:
+The four datasets used in the MR benchmarking study can be downloaded here:  
 [Dataset1]();  
 [Dataset2]();  
 [Dataset3]();  
