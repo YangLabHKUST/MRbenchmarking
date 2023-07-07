@@ -3,15 +3,15 @@
 
 ## Datasets
 The four datasets used in the MR benchmarking study can be downloaded here:  
-[Dataset1]();  
-[Dataset2]();  
-[Dataset3]();  
-[Dataset4](). 
+[Dataset1](https://gohkust-my.sharepoint.com/:u:/r/personal/maxhu_ust_hk/Documents/MR-benchmarking-data/Dataset1.zip?csf=1&web=1&e=x1eJbM);  
+[Dataset2](https://gohkust-my.sharepoint.com/:u:/r/personal/maxhu_ust_hk/Documents/MR-benchmarking-data/Dataset2.zip?csf=1&web=1&e=S3lGxS);  
+[Dataset3](https://gohkust-my.sharepoint.com/:u:/r/personal/maxhu_ust_hk/Documents/MR-benchmarking-data/Dataset3.zip?csf=1&web=1&e=7rue4N);  
+[Dataset4](https://gohkust-my.sharepoint.com/:u:/r/personal/maxhu_ust_hk/Documents/MR-benchmarking-data/Dataset4.zip?csf=1&web=1&e=MOQUXH). 
 
 In each dataset, the GWAS summary data files for each exposure or outcome trait (after data preprocessing) and the summary statistics after IV selection (step 1) are available.
 
 ## R code
-### step 0: install required packages
+### Step 0: install required packages
 #install.packages("devtools")
 #install.packages("remotes")
 
