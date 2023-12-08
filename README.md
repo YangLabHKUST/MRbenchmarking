@@ -1,4 +1,6 @@
 # Benchmarking Mendelian Randomization methods for causal inference using genome‐wide association study summary statistics
+## The experimental design for benchmarking MR methods
+
 ## Introduction
 
 ## Datasets
