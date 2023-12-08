@@ -1,7 +1,7 @@
 # Benchmarking Mendelian Randomization methods for causal inference using genome‐wide association study summary statistics
 ## The experimental design for benchmarking MR methods
 We present a benchmarking analysis of MR methods for causal inference with real-world genetic datasets. Our focus is on MR methods that utilize GWAS summary statistics as input, as they do not require access to individual-level GWAS data and are widely applicable. Specifically, we consider 15 MR methods, including the standard IVW (fixed) and IVW (random) and 13 other advanced MR methods: Egger, RAPS,  Weighted-median, Weighted-mode, MR-PRESSO, MRMix, cML-MA, MR-Robust, MR-Lasso, MR-CUE, CAUSE, MRAPSS and MR-ConMix (Figure A). The procedure for running the MR methods is outlined in Figure B.  To assess the performance of these MR methods, we utilized real-world datasets and focused on three key aspects: type I error control, the accuracy of causal effect estimates, and replicability (Figure C).
-![My Image](https://github.com/YangLabHKUST/MRbenchmarking/blob/main/design-4.pdf)
+![My Image](BenchmarkingDesign.png)
 ## Datasets
 The four datasets used in the MR benchmarking study can be downloaded here:  
 [Datasets for evaluation of type I error control in confounding scenario (a): Population stratification](https://gohkust-my.sharepoint.com/:u:/r/personal/maxhu_ust_hk/Documents/MR-benchmarking-data/Dataset1.zip?csf=1&web=1&e=x1eJbM);  
