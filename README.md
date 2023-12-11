@@ -37,12 +37,11 @@ devtools::install_github("qingyuanzhao/mr.raps")
 
 install.packages(“robustbase”)
 
-### IV selection 
+### Run MR Methods
 We perform IV selection for each trait pair in each dataset.
 The R code for IV selection is available in [IV_selection.R](https://github.com/YangLabHKUST/MRbenchmarking/blob/main/IV_selection.R).
 
-### Run MR Methods
-We applied each compared method using the dataset after IV selection.
+We then applied each compared method using the dataset after IV selection.
 The R codes for running the 15 MR methods for each dataset are available in [main_run_MR_methods.R](https://github.com/YangLabHKUST/MRbenchmarking/blob/main/main_run_MR_methods.R).
 To run the codes of *main_run_MR_methods.R*, you must load the required packages and the R functions in the folder [Rfuncs](https://github.com/YangLabHKUST/MRbenchmarking/tree/main/Rfuncs). 
 
