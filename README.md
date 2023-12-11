@@ -5,24 +5,24 @@ We present a benchmarking analysis of MR methods for causal inference with real-
 ## Datasets
 The five datasets used in the MR benchmarking study can be downloaded here.
 ### Dataset for evaluation of type I error control in confounding scenario (a): Population stratification (Dataset 1)
-[Formatted GWASs for exposures](); [Formatted GWASs for outcomes]();[summary statistics after IV selection]();  
-[Genetic correlation estimates](); [Estimated MR-APSS background parameters]().
+[Formatted GWASs for exposures]();   [Formatted GWASs for outcomes]();  [Data after IV selection]();  
+[Genetic correlation estimates]();   [Estimated MR-APSS background parameters]().
 
 ### Dataset for evaluation of type I error control in confounding scenario (b): Pleiotropy (Dataset 2)
-[Formatted GWASs for exposures](); [Formatted GWASs for outcomes]();[data after IV selection]();  
-[Genetic correlation estimates](); [Estimated MR-APSS background parameters]().
+[Formatted GWASs for exposures]();   [Formatted GWASs for outcomes]();  [Data after IV selection]();  
+[Genetic correlation estimates]();   [Estimated MR-APSS background parameters]().
 
 ### Dataset for evaluation of type I error control in confounding scenario (c): Family-level confounders (Dataset 3)
-[Formatted GWASs](); [Tested Trait pairs]();[data after IV selection]();  
-[Genetic correlation estimates](); [Estimated MR-APSS background parameters]().
+[Formatted GWASs]();   [Tested Trait pairs]();  [Data after IV selection]();  
+[Genetic correlation estimates]();   [Estimated MR-APSS background parameters]().
 
 ### Dataset for evaluation of the accuracy of causal effect estimates (Dataset 4)
-[Formatted GWASs for exposures](); [Formatted GWASs for outcomes]();[data after IV selection]();  
-[Genetic correlation estimates](); [Estimated MR-APSS background parameters]().
+[Formatted GWASs for exposures]();   [Formatted GWASs for outcomes]();   [Data after IV selection]();  
+[Genetic correlation estimates]();   [Estimated MR-APSS background parameters]().
 
 ### Dataset for evaluation of replicability (Dataset 5)
-[Formatted GWASs for exposures](); [Formatted GWASs for outcomes]();[data after IV selection]();  
-[Genetic correlation estimates](); [Estimated MR-APSS background parameters]().
+[Formatted GWASs for exposures]();   [Formatted GWASs for outcomes]();   [Data after IV selection]();  
+[Genetic correlation estimates]();   [Estimated MR-APSS background parameters]().
 
 
 In each dataset, the GWAS summary-level data files for each exposure or outcome trait (after quality control) and the summary statistics after IV selection for each trait pair are available.
