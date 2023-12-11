@@ -3,8 +3,9 @@
 We present a benchmarking analysis of MR methods for causal inference with real-world genetic datasets. Our focus is on MR methods that utilize GWAS summary statistics as input, as they do not require access to individual-level GWAS data and are widely applicable. Specifically, we consider 15 MR methods, including the standard IVW (fixed) and IVW (random) and 13 other advanced MR methods: Egger, RAPS,  Weighted-median, Weighted-mode, MR-PRESSO, MRMix, cML-MA, MR-Robust, MR-Lasso, MR-CUE, CAUSE, MRAPSS and MR-ConMix (Figure A). The procedure for running the MR methods is outlined in Figure B.  To assess the performance of these MR methods, we utilized real-world datasets and focused on three key aspects: type I error control, the accuracy of causal effect estimates, and replicability (Figure C).
 ![My Image](BenchmarkingDesign.png)
 ## Datasets
-The four datasets used in the MR benchmarking study can be downloaded here:  
-[Dataset for evaluation of type I error control in confounding scenario (a): Population stratification](https://gohkust-my.sharepoint.com/:u:/r/personal/maxhu_ust_hk/Documents/MR-benchmarking-data/Dataset1.zip?csf=1&web=1&e=x1eJbM);  
+The five datasets used in the MR benchmarking study can be downloaded here.
+# Dataset for evaluation of type I error control in confounding scenario (a): Population stratification
+[Formatted GWASs for exposures](); [Formatted GWASs for outcomes]();[Genetic correlation estimates]();[data after IV selection]();[MR-APSS background parameters]() 
 [Dataset for evaluation of type I error control in confounding scenario (b): Pleotropy](https://gohkust-my.sharepoint.com/:u:/r/personal/maxhu_ust_hk/Documents/MR-benchmarking-data/Dataset2.zip?csf=1&web=1&e=S3lGxS);  
 [Dataset for evaluation of type I error control in confounding scenario (c): Family-level confounders]();   
 [Dataset for evaluation of the accuracy of causal effect estimates](https://gohkust-my.sharepoint.com/:u:/r/personal/maxhu_ust_hk/Documents/MR-benchmarking-data/Dataset3.zip?csf=1&web=1&e=7rue4N);  
