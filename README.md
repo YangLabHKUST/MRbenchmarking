@@ -61,11 +61,11 @@ The R codes for running the 15 MR methods for each dataset are available in [mai
 To run the codes of *main_run_MR_methods.R*, you must load the required packages and the R functions in the folder [Rfuncs](https://github.com/YangLabHKUST/MRbenchmarking/tree/main/Rfuncs). 
 
 ## Results
-[Results for dataset 1];  
-[Results for dataset 2];  
-[Results for dataset 3];  
-[Results for dataset 4];  
-[Results for dataset 5]. 
+[Results for dataset 1]();  
+[Results for dataset 2]();  
+[Results for dataset 3]();  
+[Results for dataset 4]();  
+[Results for dataset 5](). 
 
 ## Reference
 Xianghong Hu, Mingxuan Cai, Jiashun Xiao, Xiaomeng Wan, Zhiwei Wang, Hongyu Zhao, and Can Yang, Benchmarking Mendelian Randomization methods for causal inference using genome‐wide association study summary statistics
