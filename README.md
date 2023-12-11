@@ -4,30 +4,31 @@ We present a benchmarking analysis of MR methods for causal inference with real-
 ![My Image](BenchmarkingDesign.png)
 ## Datasets
 The five datasets used in the MR benchmarking study can be downloaded here.
-### Dataset for evaluation of type I error control in confounding scenario (a): Population stratification (Dataset 1)
+
+### 1. Dataset for evaluation of type I error control in confounding scenario (a): Population stratification (Dataset 1)
 [Formatted GWASs for exposures]();   [Formatted GWASs for outcomes]();  [Data after IV selection]();  
 [Genetic correlation estimates]();   [Estimated MR-APSS background parameters]().
 
-### Dataset for evaluation of type I error control in confounding scenario (b): Pleiotropy (Dataset 2)
+### 2. Dataset for evaluation of type I error control in confounding scenario (b): Pleiotropy (Dataset 2)
 [Formatted GWASs for exposures]();   [Formatted GWASs for outcomes]();  [Data after IV selection]();  
 [Genetic correlation estimates]();   [Estimated MR-APSS background parameters]().
 
-### Dataset for evaluation of type I error control in confounding scenario (c): Family-level confounders (Dataset 3)
+### 3. Dataset for evaluation of type I error control in confounding scenario (c): Family-level confounders (Dataset 3)
 [Formatted GWASs]();   [Tested Trait pairs]();  [Data after IV selection]();  
 [Genetic correlation estimates]();   [Estimated MR-APSS background parameters]().
 
-### Dataset for evaluation of the accuracy of causal effect estimates (Dataset 4)
+### 4. Dataset for evaluation of the accuracy of causal effect estimates (Dataset 4)
 [Formatted GWASs for exposures]();   [Formatted GWASs for outcomes]();   [Data after IV selection]();  
 [Genetic correlation estimates]();   [Estimated MR-APSS background parameters]().
 
-### Dataset for evaluation of replicability (Dataset 5)
+### 5. Dataset for evaluation of replicability (Dataset 5)
 [Formatted GWASs for exposures]();   [Formatted GWASs for outcomes]();   [Data after IV selection]();  
 [Genetic correlation estimates]();   [Estimated MR-APSS background parameters]().
 
 Notes:  
 (1) "Formmated GWASs" refers to the GWAS summary-level data files after quality control;  
 (2) "Data after IV selection" refers to the summary statistics of LD clumped IV sets for each trait pair tested;  
-(3) Genetic correlations are estimated LDSC using the function "est_paras" in R package MR-APSS; 
+(3) Genetic correlations are estimated LDSC using the function "est_paras" in R package MR-APSS;  
 (4) "Estimated MR-APSS background parameters" are the estimated background parameters "Omega" and "C" which will be used for MR estimation in MR-APSS.
 
 
