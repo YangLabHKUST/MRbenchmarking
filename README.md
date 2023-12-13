@@ -13,23 +13,25 @@ The five datasets used in the MR benchmarking study can be downloaded here.
 
 ### 2. Dataset for evaluation of type I error control in confounding scenario (b): Pleiotropy (Dataset 2)
 [Tested trait pairs](https://gohkust-my.sharepoint.com/:t:/g/personal/maxhu_ust_hk/EcfowDL7-JJNqebh-sKP_o4BCvfhd0j1JafV1-RPUwzVHg?e=dknaxS);
-[Formatted GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EfN6LoAoCQVAgqcVFS5SCcQB4DykLekSbpUO-nYyUSqKww?e=cV6RWR);  
-[Data after IV selection](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EewHQYJ6mThClhtp-3J6M_kBICgfEWWz628vFY54UhtzZw?e=GiHfTr);  
+[Formatted GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EfN6LoAoCQVAgqcVFS5SCcQB4DykLekSbpUO-nYyUSqKww?e=cV6RWR); 
+[Data after IV selection](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EewHQYJ6mThClhtp-3J6M_kBICgfEWWz628vFY54UhtzZw?e=GiHfTr);
 [Estimated MR-APSS background parameters](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/Ed13MkxRldxFqM_Zq5Z0RskBRVGioe2sIXosP0gidmqYog?e=VxWEyl).
 
 ### 3. Dataset for evaluation of type I error control in confounding scenario (c): Family-level confounders (Dataset 3)
-[Tested Trait pairs](); [Formatted GWASs]();    [Data after IV selection]();  
-[Genetic correlation estimates]();   [Estimated MR-APSS background parameters]().
+[Tested Trait pairs](https://gohkust-my.sharepoint.com/:t:/g/personal/maxhu_ust_hk/EZcfheV83pNIrfCd7wVLzNkBcD6gCg3tY-w9bZ5Aqx8kEQ?e=uBqikV);
+[Formatted GWASs]();
+[Data after IV selection](https://gohkust-my.sharepoint.com/:f:/g/personal/maxhu_ust_hk/EjIntlAlD8dLqe2zte2EVbgBWECWw6j12Jm9qjg_dn9hAA?e=Xkk021);
+[Estimated MR-APSS background parameters](https://gohkust-my.sharepoint.com/:f:/g/personal/maxhu_ust_hk/Eh-oXPZUVuNMqEJU6LrvQfEBXHsB3qb2QztlC3SCTxsgTg?e=9PjOT4).
 
 ### 4. Dataset for evaluation of the accuracy of causal effect estimates (Dataset 4)
 [Tested Trait pairs](https://gohkust-my.sharepoint.com/:t:/g/personal/maxhu_ust_hk/EUPa_icc26dNuonjOG6Ia7EBu9Mu9vjT3TvcCYr8qWHNYQ?e=CQwwIx);
 [Formatted GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EVGtR-AH6WBCvmleRgAmZJIBYDK8tty61YxbeFobnMRCRg?e=QUPw5v);
-[Data after IV selection](https://gohkust-my.sharepoint.com/:f:/g/personal/maxhu_ust_hk/EuMU6Cg9EzdFjVaVfqoKi7EBToxnCL0zw4bU3gPnRdwwxg?e=fpiyHW);  
+[Data after IV selection](https://gohkust-my.sharepoint.com/:f:/g/personal/maxhu_ust_hk/EuMU6Cg9EzdFjVaVfqoKi7EBToxnCL0zw4bU3gPnRdwwxg?e=fpiyHW);
 [Estimated MR-APSS background parameters](https://gohkust-my.sharepoint.com/:f:/g/personal/maxhu_ust_hk/EpzSQnpvxFFJge-I1nm5Fz4Bx2bLVQe_NDpeVFBB6Fpp6g?e=Wbr904).
 
 ### 5. Dataset for evaluation of replicability (Dataset 5)  
 [Tested Trait pairs](https://gohkust-my.sharepoint.com/:t:/g/personal/maxhu_ust_hk/EU5AwvS3S-FOriBAL2c0biABY4J7zQC1me9Y0r4KF4a4Bw?e=UocM5h);
-[Formatted GWASs](https://gohkust-my.sharepoint.com/:t:/g/personal/maxhu_ust_hk/EU5AwvS3S-FOriBAL2c0biABY4J7zQC1me9Y0r4KF4a4Bw?e=ArkoPk); 
+[Formatted GWASs](https://gohkust-my.sharepoint.com/:t:/g/personal/maxhu_ust_hk/EU5AwvS3S-FOriBAL2c0biABY4J7zQC1me9Y0r4KF4a4Bw?e=ArkoPk);
 [Data after IV selection](https://gohkust-my.sharepoint.com/:f:/g/personal/maxhu_ust_hk/EnBPaVHrLEVOg01xbqx-QJwB-cTxFUltKNspQyKxdlSdQw?e=OCMexB);
 [Estimated MR-APSS background parameters](https://gohkust-my.sharepoint.com/:f:/g/personal/maxhu_ust_hk/EkhFN-xhi8lMiLzUH2L4FqEBzOEyirIU5p6bRNZTIBDwMw?e=c5xRRx).
 
