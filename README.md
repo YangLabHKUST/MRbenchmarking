@@ -66,7 +66,7 @@ The R codes for running the 15 MR methods for each dataset are available in [mai
 To run the codes of *main_run_MR_methods.R*, you must load the required packages and the R functions in the folder [Rfuncs](https://github.com/YangLabHKUST/MRbenchmarking/tree/main/Rfuncs). 
 
 ## Results of MR methods
-[Results for dataset 1]();  
+[Results for dataset 1](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EX6Z2H7z0tlJulUViaU8KBoBrS2imAI-Bi05k_A5uF5rHA?e=i2Kumy);  
 [Results for dataset 2]();  
 [Results for dataset 3]();  
 [Results for dataset 4]();  
