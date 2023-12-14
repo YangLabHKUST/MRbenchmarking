@@ -2,17 +2,17 @@ setwd("MR-benchmarking-data/dataset1")
 
 library(readr)
 library(MRAPSS)
-ts1= load("outcome_set.RData")
-ts2 = load("outcome_set.RData")
+pairs=read.table("TestedPairs", header=T)
 
-for( exposure in ts1){
-  for( outcome in ts2){
+for( i in 1:nrow(pairs)){
+    exposure = as.character(ts1[i, "exposure"])
+    outcome = as.character(ts1[i, "outcome"])
     # Start the clock!
     start = proc.time()
     
     # read in formatted GWAS data
-    trait1.dir = paste0("./Formatted/exposure.set/", exposure)
-    trait2.dir = paste0("./Formatted/outcome.set/", outcome)
+    trait1.dir = paste0("./GWAS/", exposure)
+    trait2.dir = paste0("./GWAS/", outcome)
     
     cat(exposure,"~",outcome,"\n")
     
@@ -57,7 +57,6 @@ for( exposure in ts1){
     # Stop the clock
     proc.time() - start
     
-  }
   
 }
 
