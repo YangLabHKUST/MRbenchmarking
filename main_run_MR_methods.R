@@ -6,17 +6,20 @@ source("./Rfuncs/mr_lasso.R", echo=TRUE)
 
 setwd("MR-benchmarking-data/Dataset1")    # Change the directory for different datasets
 
-# The exposure and outcome pairs to be analysed
-ts1 = load("exposure_set.Rdata")
-ts2 = load("outcome_set.Rdata")
+
 
 ##### Run MR-APSS ##### 
 library(MRAPSS)
 
 IV.Threshold = c(5e-05,5e-06,5e-07,5e-08)
-for( exposure in ts1){
+
+# The exposure and outcome pairs to be analyzed
+pairs=read.table("TestedPairs", header=T)
+
+for( i in 1:nrow(pairs)){
   
-  for( outcome in ts2){
+    exposure = as.character(ts1[i, "exposure"])
+    outcome = as.character(ts1[i, "outcome"])
     
     cat("Pair: ", exposure,"~", outcome,"\n")
     
@@ -54,17 +57,23 @@ for( exposure in ts1){
     
     # saving resuts
     write.table(res, "MRAPSS.MRres", quote=F, col.names = F, append = T,row.names = F)
-  }
+
 }
 
 ##### run 11 methods ##### 
 set.seed(1234)
 methods = c("IVW_fe", "IVW", "RAPS","Egger", "MRMix","Weighted-median", "Weighted-mode",  "MR-Robust","MR-Lasso", "cML-MA", "MR-PRESSO")
+
+# The exposure and outcome pairs to be analyzed
+pairs=read.table("TestedPairs", header=T)
+
 for(Thresh in c(5e-08,5e-07,5e-06,5e-05)){
-  for( exposure in ts1){
-    
-    for( outcome in ts2){
-      
+
+for( i in 1:nrow(pairs)){
+  
+    exposure = as.character(ts1[i, "exposure"])
+    outcome = as.character(ts1[i, "outcome"])
+  
       # read in GWAS summary data for IVs
       clumped = try(read.table(paste0("./MRdat/1kgRef_", exposure,"~",outcome), header = T))
       ldmat = NULL
@@ -78,7 +87,7 @@ for(Thresh in c(5e-08,5e-07,5e-06,5e-05)){
         
         
         write.table(res, "MRmethods.MRres", quote=F, col.names = F, append = T,row.names = F)
-      }  
+ 
     }
   }
 }
@@ -87,10 +96,16 @@ for(Thresh in c(5e-08,5e-07,5e-06,5e-05)){
 
 ##### Run MR-ConMix  ##### 
 set.seed(1234)
+
+# The exposure and outcome pairs to be analyzed
+pairs=read.table("TestedPairs", header=T)
+
 for(Thresh in c(5e-08,5e-07,5e-06,5e-05)){
-  for( exposure in ts1){
-    
-    for( outcome in ts2){
+
+for( i in 1:nrow(pairs)){
+  
+    exposure = as.character(ts1[i, "exposure"])
+    outcome = as.character(ts1[i, "outcome"])
       
       # read in GWAS summary data for IVs
       clumped = try(read.table(paste0("./MRdat/1kgRef_", exposure,"~",outcome), header = T))
@@ -103,7 +118,6 @@ for(Thresh in c(5e-08,5e-07,5e-06,5e-05)){
       
       write.table(res, "ConMix.MRres", quote=F, col.names = F, append = T,row.names = F)
       
-    }
   }
   
 }
@@ -114,11 +128,16 @@ library(readr)
 library(cause)
 
 start = proc.time()
-for( exposure in ts1){
+
+# The exposure and outcome pairs to be analyzed
+pairs=read.table("TestedPairs", header=T)
+
+for(Thresh in c(5e-08,5e-07,5e-06,5e-05)){
+
+for( i in 1:nrow(pairs)){
   
-  for( outcome in ts2){
-    
-    
+    exposure = as.character(ts1[i, "exposure"])
+    outcome = as.character(ts1[i, "outcome"])
     if(exposure==outcome) next
     
     # read GWAS summary statistics
@@ -200,7 +219,6 @@ for( exposure in ts1){
         rm(res_elpd)
         rm(res.cause.est)
         rm(cause_res)
-      }
       
     }
     
@@ -226,9 +244,14 @@ snpinfo = "MR-benchmarking-data/dataset_mrcue/UK10Ksnpinforhm3.RDS"
 ld_r2_thresh = 0.001
 lambda = 0.85
 pth = 1.96
+  
+# The exposure and outcome pairs to be analyzed
+pairs=read.table("TestedPairs", header=T)
 
-for(exposure in ts1){
-  for(outcome in ts2){
+for( i in 1:nrow(pairs)){
+  
+    exposure = as.character(ts1[i, "exposure"])
+    outcome = as.character(ts1[i, "outcome"])
     
     cat(exposure, "~", outcome, " ")
     fileexp = paste0("./Formatted/", as.character(exposure))
@@ -297,6 +320,5 @@ for(exposure in ts1){
     
     unlink(paste0(exposure, "~", outcome, "_exp", ".cuedat"))
     unlink(paste0(exposure, "~", outcome, "_out", ".cuedat"))
-  }
 }
 
