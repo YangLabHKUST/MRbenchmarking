@@ -6,11 +6,11 @@ We present a benchmarking analysis of MR methods for causal inference with real-
 The five datasets used in the MR benchmarking study can be downloaded here.
 
 ### Dataset 1: GWASATLAS Dataset for evaluation of type I error control in confounding scenario (a): Population stratification
-[Tested trait pairs](https://gohkust-my.sharepoint.com/:t:/g/personal/maxhu_ust_hk/ET-ZfKHDuJZMr11_4OqmCiMBOkqcvemSyI-2nsZ0ofCMlQ?e=e8FxtI);  
-[GWASs for exposures](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EblwNZLAorRAvCLbvYugudEBaGtWc72q2HrhAvGkCHTmaA?e=ciE3Q2);  
-[GWASs for outcomes](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EQdc-MQQeLZKn7G2Oj9N30sBuuZCZ4c3LCjgi92NokmAOw?e=dXcdr7);  
-[IV data for MR analysis](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EQqGIPxZVaxNsWdelJeCO7IB4bbgwy8m31_b58JZFFO0eA?e=nkxQRb);  
-[Estimated MR-APSS background parameters](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EaBGM-8E091EqKI9S-VCH4AB1Rz9DGbKFHATedJCHVJocg?e=cv3jpw).  
+[Tested trait pairs](https://gohkust-my.sharepoint.com/:t:/g/personal/maxhu_ust_hk/ET-ZfKHDuJZMr11_4OqmCiMBOkqcvemSyI-2nsZ0ofCMlQ?e=e8FxtI);
+[GWASs for exposures](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EblwNZLAorRAvCLbvYugudEBaGtWc72q2HrhAvGkCHTmaA?e=ciE3Q2);
+[GWASs for outcomes](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EQdc-MQQeLZKn7G2Oj9N30sBuuZCZ4c3LCjgi92NokmAOw?e=dXcdr7);
+[IV data for MR analysis](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EQqGIPxZVaxNsWdelJeCO7IB4bbgwy8m31_b58JZFFO0eA?e=nkxQRb);
+[Estimated MR-APSS background parameters](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EaBGM-8E091EqKI9S-VCH4AB1Rz9DGbKFHATedJCHVJocg?e=cv3jpw). 
 
 ### Dataset 2: the Neal Lab Dataset for evaluation of type I error control in confounding scenario (a): Population stratification
 [Tested trait pairs](); [GWASs](); [IV data for MR analysis]();[Estimated MR-APSS background parameters]().  
