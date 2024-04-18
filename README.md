@@ -44,10 +44,11 @@ The five datasets used in the MR benchmarking study can be downloaded here.
 
 Note:  
 (1) "Tested Trait pairs": the exposure-outcome trait pairs to be analyzed;
-(1) "GWASs" refers to the GWAS summary-level data files after quality control;  
-(2) "IV data for MR analysis" refers to the summary statistics of LD clumped IV sets for each trait pair tested which can be directed used for MR analysis;  
-(3) Genetic correlations are estimated LDSC using the function "est_paras" in R package MR-APSS;  
-(4) "Estimated MR-APSS background parameters" are the estimated background parameters "Omega" and "C" which will be used for MR estimation in MR-APSS.
+(2) "GWASs" refers to the formatted GWAS summary-level data files after quality control;
+(3) "IV data for MR analysis" refers to the summary statistics of LD clumped IV sets for each trait pair tested which can be directed used for MR analysis;  
+(4) Genetic correlations are estimated LDSC using the function "est_paras" in R package MR-APSS;  
+(5) "Estimated MR-APSS background parameters" are the estimated background parameters "Omega" and "C" which will be used for MR estimation in MR-APSS.
+(6) The details on quality control of GWAS summary statistics, formatting GWASs, and  LD clumping for IV selection can be found on the [MR-APSS software tutorial]((https://github.com/YangLabHKUST/MR-APSS/blob/master/MRAPSS_Rpackage_Tutorial.pdf)) on MR-APSS [GitHub](https://github.com/YangLabHKUST/MR-APSS) website.
 
 
 ## R code
