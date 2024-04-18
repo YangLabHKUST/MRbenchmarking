@@ -18,8 +18,8 @@ pairs=read.table("TestedPairs", header=T)
 
 for( i in 1:nrow(pairs)){
   
-    exposure = as.character(ts1[i, "exposure"])
-    outcome = as.character(ts1[i, "outcome"])
+    exposure = as.character(pairs[i, "exposure"])
+    outcome = as.character(pairs[i, "outcome"])
     
     cat("Pair: ", exposure,"~", outcome,"\n")
     
@@ -71,8 +71,8 @@ for(Thresh in c(5e-08,5e-07,5e-06,5e-05)){
 
 for( i in 1:nrow(pairs)){
   
-    exposure = as.character(ts1[i, "exposure"])
-    outcome = as.character(ts1[i, "outcome"])
+    exposure = as.character(pairs[i, "exposure"])
+    outcome = as.character(pairs[i, "outcome"])
   
       # read in GWAS summary data for IVs
       clumped = try(read.table(paste0("./MRdat/1kgRef_", exposure,"~",outcome), header = T))
@@ -104,8 +104,8 @@ for(Thresh in c(5e-08,5e-07,5e-06,5e-05)){
 
 for( i in 1:nrow(pairs)){
   
-    exposure = as.character(ts1[i, "exposure"])
-    outcome = as.character(ts1[i, "outcome"])
+    exposure = as.character(pairs[i, "exposure"])
+    outcome = as.character(pairs[i, "outcome"])
       
       # read in GWAS summary data for IVs
       clumped = try(read.table(paste0("./MRdat/1kgRef_", exposure,"~",outcome), header = T))
@@ -136,8 +136,8 @@ for(Thresh in c(5e-08,5e-07,5e-06,5e-05)){
 
 for( i in 1:nrow(pairs)){
   
-    exposure = as.character(ts1[i, "exposure"])
-    outcome = as.character(ts1[i, "outcome"])
+    exposure = as.character(pairs[i, "exposure"])
+    outcome = as.character(pairs[i, "outcome"])
     if(exposure==outcome) next
     
     # read GWAS summary statistics
@@ -250,8 +250,8 @@ pairs=read.table("TestedPairs", header=T)
 
 for( i in 1:nrow(pairs)){
   
-    exposure = as.character(ts1[i, "exposure"])
-    outcome = as.character(ts1[i, "outcome"])
+    exposure = as.character(pairs[i, "exposure"])
+    outcome = as.character(pairs[i, "outcome"])
     
     cat(exposure, "~", outcome, " ")
     fileexp = paste0("./Formatted/", as.character(exposure))
@@ -320,5 +320,43 @@ for( i in 1:nrow(pairs)){
     
     unlink(paste0(exposure, "~", outcome, "_exp", ".cuedat"))
     unlink(paste0(exposure, "~", outcome, "_out", ".cuedat"))
+}
+
+
+  ### Run dIVW(lambda=0)
+  ### run dIVW
+library(mr.divw)
+set.seed(1234)
+pairs=read.table("TestedPairs", header=T)
+
+for(Thresh in c(5e-08,5e-07,5e-06,5e-05)){
+
+for( i in 1:nrow(pairs)){
+  
+    exposure = as.character(pairs[i, "exposure"])
+    outcome = as.character(pairs[i, "outcome"])
+    
+    # read in GWAS summary data for IVs
+    clumped = try(read.table(paste0("./clumped/UKB600/MRdat/UKB226/1kgRef_", exposure,"~",outcome), header = T))
+    if(inherits(clumped,"try-error")) next
+    
+    for(Thresh in c(5e-08,5e-07,5e-06,5e-05)){
+      
+      data = subset(clumped, pval.exp<=Thresh)
+      res = mr.divw(beta.exposure=data$b.exp, beta.outcome=data$b.out, 
+                    se.exposure=data$se.exp, se.outcome=data$se.out, 
+                    diagnostics=F, over.dispersion=T)
+      
+      divw.res = data.frame(exposure = exposure, outcome=outcome,
+                            method = "dIVW", Threshold = Thresh,
+                            nsnp = res$n.IV , beta = res$beta.hat, se = res$beta.se, 
+                            pval = pchisq(res$beta.hat^2/res$beta.se^2, 1, lower.tail = F))
+      
+      write.table(divw.res, "/import/home/share/xhu/MR-Benchmarking-AJHG-revison-r1/add-dIVW/AtlasUKB_NCO_1kgRef_dIVW.MRres",
+                  quote=F, col.names = F, append = T,row.names = F)
+      
+    }
+  }
+  
 }
 
