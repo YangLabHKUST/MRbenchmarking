@@ -79,13 +79,13 @@ The R codes for running the 15 MR methods for each dataset are available in [mai
 To run the codes of *main_run_MR_methods.R*, you must load the required packages and the R functions in the folder [Rfuncs](https://github.com/YangLabHKUST/MRbenchmarking/tree/main/Rfuncs). 
 
 ## Results of MR methods
-[Results for dataset 1](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EU2TpRPP8wdHk8Fd0UhxmaUBOHfbxJvFJ9yoEcTdPIJmKw?e=834Hog);  
-[Results for dataset 2](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EcZooOkcIABOj72yHxgns2kB9AOxH63CHkxzCSMSFJU1Fg?e=fz1vnq);  
-[Results for dataset 3](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EcF4WbLwCtxMv8tV1VQtaq8BkTCh0lJND7BmPGjgKWfozA?e=G91CeG);  
-[Results for dataset 4](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EYpIpzxmn8tMixfwdNFpDQYB51IRf3UzA9b_y3v_2ZO6MQ?e=J6ZpM9);  
-[Results for dataset 5](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EacRr7UW-l1KlSAsRVXPenkBHbRiZM2bSFnfukEEbBMggg?e=0xRcTf);  
-[Results for dataset 6](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EZK18RG4tlxPo1L-eEaYyMwBhHfEEw69PDskAQHH9lcwqw?e=BLF3j2);  
-[Results for dataset 7](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EeTc1DeCfhpKiT72cH9FXf4Buxqfo5291qkjQDw4sr8hqw?e=ZQKGdm). 
+[Results for dataset 1](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/ESDdtp3yd59ChxoqLgxibJkBm7p_RLSnJ8O3RBaYTluTRQ?e=wlxTHp);  
+[Results for dataset 2](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/ETl4Heu2ga5Nk3bExBFb8GgBhbHkSjqzN57DOg90UP7bDg?e=0FP8jA);  
+[Results for dataset 3](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/ET5Pi2kNWTFAqnk1fcLsEFwBsVy85sbke_YqGwbpzFFydA);  
+[Results for dataset 4](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/ESwHgVn_KDBKuoxHnUwO-G0BUaJbxUJuSsKhCmn9m6nKCQ?e=XdGiSg);  
+[Results for dataset 5](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EQjb7gIlMh1MqN74mPW3THUBtiRtlBCFAadILNqJesu3ig?e=gpgc6Z);  
+[Results for dataset 6](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EU7fXUBUyddDmssl9V5fuoIBku6vTxfgxNvsn_bN9NzCYQ?e=gHfoIf);  
+[Results for dataset 7](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EfG4OKJizPZKsEsS4D6DPZIBfCJty3Dx2SQpDv3AXaMwdg?e=xpkaZN). 
 
 ## Reference
 Xianghong Hu, Mingxuan Cai, Jiashun Xiao, Xiaomeng Wan, Zhiwei Wang, Hongyu Zhao, and Can Yang, Benchmarking Mendelian Randomization methods for causal inference using genome‐wide association study summary statistics, https://medrxiv.org/cgi/content/short/2024.01.03.24300765v1.
