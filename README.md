@@ -88,7 +88,7 @@ To run the codes of *main_run_MR_methods.R*, you must load the required packages
 [Results for dataset 7](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EfG4OKJizPZKsEsS4D6DPZIBfCJty3Dx2SQpDv3AXaMwdg?e=xpkaZN). 
 
 ## Reference
-Xianghong Hu, Mingxuan Cai, Jiashun Xiao, Xiaomeng Wan, Zhiwei Wang, Hongyu Zhao, Can Yang, Benchmarking Mendelian randomization methods for causal inference using genome-wide association study summary statistics, The American Journal of Human Genetics, 2024, https://doi.org/10.1016/j.ajhg.2024.06.016.
+Xianghong Hu, Mingxuan Cai, Jiashun Xiao, Xiaomeng Wan, Zhiwei Wang, Hongyu Zhao, Can Yang, Benchmarking Mendelian randomization methods for causal inference using genome-wide association study summary statistics, The American Journal of Human Genetics, 2024, https://doi.org/10.1016/j.ajhg.2024.06.016.  
 Xianghong Hu, Mingxuan Cai, Jiashun Xiao, Xiaomeng Wan, Zhiwei Wang, Hongyu Zhao, and Can Yang, Benchmarking Mendelian Randomization methods for causal inference using genome‐wide association study summary statistics, https://medrxiv.org/cgi/content/short/2024.01.03.24300765v1.
 
 ## Contact information
