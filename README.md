@@ -9,31 +9,32 @@ The datasets used in the MR benchmarking study can be downloaded here.
 ### Dataset 1: GWASATLAS Dataset for evaluation of type I error control in confounding scenario (a): Population stratification
 [GWASs for exposures](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EblwNZLAorRAvCLbvYugudEBaGtWc72q2HrhAvGkCHTmaA?e=DvW21W);
 [GWASs for outcomes](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EQdc-MQQeLZKn7G2Oj9N30sBuuZCZ4c3LCjgi92NokmAOw?e=ei6ubC);
-[Formatted IV data for MR analysis](https://zenodo.org/records/10929572/files/dataset-GWASATLAS-negativecontrol.zip?download=1);
+[Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset-GWASATLAS-negativecontrol.zip?download=1);
+
 
 ### Dataset 2: the Neal Lab Dataset for evaluation of type I error control in confounding scenario (a): Population stratification  
 [GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EU1e5jC9jS9DptDaVKUJwlsB6BgCAQ8OWntCWGzP7zWzdA?e=r6B2D2);
-[Formatted IV data for MR analysis](https://zenodo.org/records/10929572/files/dataset-NealeLab-negativecontrol.zip?download=1).
+[Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset-NealeLab-negativecontrol.zip?download=1).
 
 ### Dataset 3: the Pan UKBB Dataset for evaluation of type I error control in confounding scenario (a): Population stratification  
 [GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/ERu0_x-u0FhDsjbFHhmB1BsBPzTnc6VvPBclwnU2QeEs5g?e=NyffU2);
-[Formatted IV data for MR analysis](https://zenodo.org/records/10929572/files/dataset-PanUKBB-negativecontrol.zip?download=1).
+[Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset-PanUKBB-negativecontrol.zip?download=1).
 
 ### Dataset 4: the dataset for evaluation of type I error control in confounding scenario (b): Pleiotropy  
 [GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EVGtR-AH6WBCvmleRgAmZJIBYDK8tty61YxbeFobnMRCRg?e=6nL2d0);
-[Formatted IV data for MR analysis](https://zenodo.org/records/10929572/files/dataset-Pleiotropy-negativecontrol.zip?download=1)
+[Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset-Pleiotropy-negativecontrol.zip?download=1)
 
 ### Dataset 5: the dataset for evaluation of type I error control in confounding scenario (c): Family-level confounders  
 [GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/Efflau1WW7VAhgyBEaZsw2IBh59CUv7HLdbCE-cAPJuesw?e=N9uflB);
-[Formatted IV data for MR analysis](https://zenodo.org/records/10929572/files/dataset-familylevelconf-negativecontrol.zip?download=1)
+[Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset-familylevelconf-negativecontrol.zip?download=1)
 
 ### Dataset 6: the dataset for evaluation of the accuracy of causal effect estimates  
 [GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EVGtR-AH6WBCvmleRgAmZJIBYDK8tty61YxbeFobnMRCRg?e=6nL2d0);
-[Formatted IV data for MR analysis](https://zenodo.org/records/10929572/files/dataset_ukb-ukb.zip?download=1);
+[Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset_ukb-ukb.zip?download=1);
 
 ### Dataset 7: the dataset for evaluation of replicability  
 [GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EcfHZhJfqrxLiBiIV8W5BWgBJgIBklOJcc0ebggGqCD4wg?e=iLuN8l);
-[Formatted IV data for MR analysis](https://zenodo.org/records/10929572/files/dataset-LDL-CAD.zip?download=1);
+[Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset-LDL-CAD.zip?download=1);
 
 Note: 
 (1) "GWASs" refers to the formatted GWAS summary-level data files after quality control;   
@@ -86,6 +87,9 @@ To run the codes of *main_run_MR_methods.R*, you must load the required packages
 [Results for dataset 5](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EQjb7gIlMh1MqN74mPW3THUBtiRtlBCFAadILNqJesu3ig?e=gpgc6Z);  
 [Results for dataset 6](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EU7fXUBUyddDmssl9V5fuoIBku6vTxfgxNvsn_bN9NzCYQ?e=gHfoIf);  
 [Results for dataset 7](https://gohkust-my.sharepoint.com/:x:/g/personal/maxhu_ust_hk/EfG4OKJizPZKsEsS4D6DPZIBfCJty3Dx2SQpDv3AXaMwdg?e=xpkaZN). 
+
+## updates
+The datasets underwent a recent reorganization on September 24, 2024.
 
 ## Reference
 Xianghong Hu, Mingxuan Cai, Jiashun Xiao, Xiaomeng Wan, Zhiwei Wang, Hongyu Zhao, Can Yang, Benchmarking Mendelian randomization methods for causal inference using genome-wide association study summary statistics, The American Journal of Human Genetics, 2024. [\[link\]](https://doi.org/10.1016/j.ajhg.2024.06.016); [\[medrxiv version\]](https://medrxiv.org/cgi/content/short/2024.01.03.24300765v1).
