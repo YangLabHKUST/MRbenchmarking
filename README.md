@@ -4,40 +4,38 @@ We present a benchmarking analysis of MR methods for causal inference with real-
 ![My Image](design.png)
 
 ## Datasets
-The datasets used in the MR benchmarking study can be downloaded here.
-
 ### Dataset 1: GWASATLAS Dataset for evaluation of type I error control in confounding scenario (a): Population stratification
-[GWASs for exposures](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EblwNZLAorRAvCLbvYugudEBaGtWc72q2HrhAvGkCHTmaA?e=DvW21W);
-[GWASs for outcomes](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EQdc-MQQeLZKn7G2Oj9N30sBuuZCZ4c3LCjgi92NokmAOw?e=ei6ubC);
+[Formatted GWASs for exposures](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EblwNZLAorRAvCLbvYugudEBaGtWc72q2HrhAvGkCHTmaA?e=DvW21W);
+[Formatted GWASs for outcomes](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EQdc-MQQeLZKn7G2Oj9N30sBuuZCZ4c3LCjgi92NokmAOw?e=ei6ubC);
 [Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset-GWASATLAS-negativecontrol.zip?download=1);
 
 
 ### Dataset 2: the Neal Lab Dataset for evaluation of type I error control in confounding scenario (a): Population stratification  
-[GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EU1e5jC9jS9DptDaVKUJwlsB6BgCAQ8OWntCWGzP7zWzdA?e=r6B2D2);
+[Formatted GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EU1e5jC9jS9DptDaVKUJwlsB6BgCAQ8OWntCWGzP7zWzdA?e=r6B2D2);
 [Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset-NealeLab-negativecontrol.zip?download=1).
 
 ### Dataset 3: the Pan UKBB Dataset for evaluation of type I error control in confounding scenario (a): Population stratification  
-[GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/ERu0_x-u0FhDsjbFHhmB1BsBPzTnc6VvPBclwnU2QeEs5g?e=NyffU2);
+[Formatted GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/ERu0_x-u0FhDsjbFHhmB1BsBPzTnc6VvPBclwnU2QeEs5g?e=NyffU2);
 [Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset-PanUKBB-negativecontrol.zip?download=1).
 
 ### Dataset 4: the dataset for evaluation of type I error control in confounding scenario (b): Pleiotropy  
-[GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EVGtR-AH6WBCvmleRgAmZJIBYDK8tty61YxbeFobnMRCRg?e=6nL2d0);
+[Formatted GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EVGtR-AH6WBCvmleRgAmZJIBYDK8tty61YxbeFobnMRCRg?e=6nL2d0);
 [Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset-Pleiotropy-negativecontrol.zip?download=1)
 
 ### Dataset 5: the dataset for evaluation of type I error control in confounding scenario (c): Family-level confounders  
-[GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/Efflau1WW7VAhgyBEaZsw2IBh59CUv7HLdbCE-cAPJuesw?e=N9uflB);
+[Formatted GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/Efflau1WW7VAhgyBEaZsw2IBh59CUv7HLdbCE-cAPJuesw?e=N9uflB);
 [Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset-familylevelconf-negativecontrol.zip?download=1)
 
 ### Dataset 6: the dataset for evaluation of the accuracy of causal effect estimates  
-[GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EVGtR-AH6WBCvmleRgAmZJIBYDK8tty61YxbeFobnMRCRg?e=6nL2d0);
+[Formatted GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EVGtR-AH6WBCvmleRgAmZJIBYDK8tty61YxbeFobnMRCRg?e=6nL2d0);
 [Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset_ukb-ukb.zip?download=1);
 
 ### Dataset 7: the dataset for evaluation of replicability  
-[GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EcfHZhJfqrxLiBiIV8W5BWgBJgIBklOJcc0ebggGqCD4wg?e=iLuN8l);
+[Formatted GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EcfHZhJfqrxLiBiIV8W5BWgBJgIBklOJcc0ebggGqCD4wg?e=iLuN8l);
 [Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset-LDL-CAD.zip?download=1);
 
 Note: 
-(1) "GWASs" refers to the formatted GWAS summary-level data files after quality control;   
+(1) "Formatted GWASs" refers to the summary-level data files formatted after quality control from the original GWAS datasets. We have provided the download links for these original datasets in Table GWASs.xlsx.".
 (2) "Formatted IV data for MR analysis" contains the following three types of files:    
      "Tested Trait pairs": the exposure-outcome trait pairs to be analyzed;    
      "MRdat": refers to the summary statistics of LD clumped IV sets for each trait pair tested which can be directed used for MR analysis;   
