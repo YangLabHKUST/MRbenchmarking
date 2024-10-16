@@ -4,6 +4,10 @@ We present a benchmarking analysis of MR methods for causal inference with real-
 ![My Image](design.png)
 
 ## Datasets
+### GWAS sources
+The original GWAS datasets used in this study are summarized in Table [GWASs.xlsx](https://github.com/YangLabHKUST/MRbenchmarking/blob/main/GWASs.xlsx).
+You can access the original GWAS datasets directly through the download links provided in the table. The formatted datasets used in this study are provided below.
+
 ### Dataset 1: GWASATLAS Dataset for evaluation of type I error control in confounding scenario (a): Population stratification
 [Formatted GWASs for exposures](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EblwNZLAorRAvCLbvYugudEBaGtWc72q2HrhAvGkCHTmaA?e=DvW21W);
 [Formatted GWASs for outcomes](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EQdc-MQQeLZKn7G2Oj9N30sBuuZCZ4c3LCjgi92NokmAOw?e=ei6ubC);
@@ -35,7 +39,7 @@ We present a benchmarking analysis of MR methods for causal inference with real-
 [Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset-LDL-CAD.zip?download=1);
 
 ### Notes:  
-(1) "Formatted GWASs" refers to the formatted summary-level data files generated after quality control from the original GWAS datasets. We have provided the download links for these original datasets in [Table GWASs.xlsx](https://github.com/YangLabHKUST/MRbenchmarking/blob/main/GWASs.xlsx).  
+(1) "Formatted GWASs" refers to the formatted summary-level data files generated after quality control from the original GWAS datasets. 
 (2) "Formatted IV data for MR analysis" contains the following three types of files:    
      "Tested Trait pairs": the exposure-outcome trait pairs to be analyzed;    
      "MRdat": refers to the summary statistics of LD clumped IV sets for each trait pair tested which can be directed used for MR analysis;   
