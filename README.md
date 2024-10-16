@@ -34,8 +34,8 @@ We present a benchmarking analysis of MR methods for causal inference with real-
 [Formatted GWASs](https://gohkust-my.sharepoint.com/:u:/g/personal/maxhu_ust_hk/EcfHZhJfqrxLiBiIV8W5BWgBJgIBklOJcc0ebggGqCD4wg?e=iLuN8l);
 [Formatted IV data for MR analysis](https://zenodo.org/records/13832454/files/dataset-LDL-CAD.zip?download=1);
 
-Note: 
-(1) "Formatted GWASs" refers to the summary-level data files formatted after quality control from the original GWAS datasets. We have provided the download links for these original datasets in Table GWASs.xlsx.".
+### Notes:  
+(1) "Formatted GWASs" refers to the summary-level data files formatted after quality control from the original GWAS datasets. We have provided the download links for these original datasets in [Table GWASs.xlsx](https://github.com/YangLabHKUST/MRbenchmarking/blob/main/GWASs.xlsx).  
 (2) "Formatted IV data for MR analysis" contains the following three types of files:    
      "Tested Trait pairs": the exposure-outcome trait pairs to be analyzed;    
      "MRdat": refers to the summary statistics of LD clumped IV sets for each trait pair tested which can be directed used for MR analysis;   
